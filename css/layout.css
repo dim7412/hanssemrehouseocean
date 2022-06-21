@@ -61,8 +61,8 @@ header{overflow:hidden;}
 .mainvisual .gallery .img .title_wrap span{font-size: 10px;color: #fff;display:block;font-weight: 200;}
 
 .gallery .slick-arrow{position:absolute;top:50%;transform: translateY(-50%);z-index:10000;width: 40px; height: 40px;border-radius: 50%;border:10px solid #666;text-indent: -9999;cursor:pointer;}
-.gallery .slick-next{right:15%;background:#666 url(../images/icon/arrow_back_white_30dp.svg) no-repeat center;background-size:20px auto;float:right;}
-.gallery .slick-prev{left:15%;background:#666 url(../images/icon/arrow_prev_white_30dp.svg) no-repeat center;background-size:20px auto;float:left;}
+.gallery .slick-next{left:15%;background:#666 url(../images/icon/arrow_prev_white_30dp.svg) no-repeat center;background-size:20px auto;float:right;}
+.gallery .slick-prev{right:15%;background:#666 url(../images/icon/arrow_back_white_30dp.svg) no-repeat center;background-size:20px auto;float:left;}
 
 main{padding:40px 0;}
 main section{padding:30px 0;}
