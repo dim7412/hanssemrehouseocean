@@ -1,0 +1,45 @@
+<script type="text/javascript">
+	$(document).ready(function(){  
+		$("#listB a").click(function() { //마우스를 topnav에 오버시 
+			$(".list_popup").fadeIn(300);  
+			$(".black_bg").fadeIn(300);
+			$('.siteB img').attr('src',$(this).attr('href'));
+			$('.list_popup .type01').text($(this).find('.title_wrap h3 span').text());
+			$('.list_popup .type02').html($(this).find('.type02').html());
+			$('.list_popup .site_bt').attr('href',$(this).attr('alt'));
+			return false;
+		});
+		$(".list_popup .close_bt").click(function() {
+				$(".list_popup").fadeOut(300);  
+				$(".black_bg").fadeOut(300);  
+		});
+
+		
+	});
+</script>
+
+  <div class="list_popup">
+	<div class="left">
+		<div class="siteB">
+			<img src="">
+		</div>
+	</div>
+	<div class="right">
+		<div class="txtB00">
+			<div class="type01">
+				
+			</div>
+			<div class="type02">
+				
+			</div>
+			<a href="#" class="site_bt" target="_blank">
+				<img src="../images/common/bt_site.jpg">
+			</a>
+			<a href="#" class="close_bt" onclick="return false;">
+				<img src="../images/common/bt_close01.gif">
+			</a>
+		</div>
+	</div>
+  </div>
+ <div class="black_bg">
+ </div>
